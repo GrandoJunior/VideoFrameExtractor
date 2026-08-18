@@ -1,0 +1,34 @@
+# VideoFrameExtractor — Dependências
+# Gerado automaticamente. Não editar manualmente.
+
+# --- Processamento de vídeo ---
+opencv-python>=4.9,<5
+
+# --- Processamento de imagem ---
+Pillow>=10,<12
+
+# --- GPU / Deep Learning ---
+# torch e torchvision: instalados pelo bootstrapper com o índice CUDA correto
+torch>=2.3,<3
+torchvision>=0.18,<1
+
+# --- Qualidade de imagem (IQA) ---
+pyiqa>=0.1.10
+
+# --- Aprimoramento IA (Real-ESRGAN) ---
+realesrgan>=0.3.0
+basicsr>=1.4.2
+facexlib>=0.3.0
+
+# --- Groq Cloud (fallback) ---
+groq>=0.9.0
+
+# --- Leitura de vídeo alternativa (mais rápida para random access) ---
+decord>=0.6.0
+
+# --- Interface e progresso ---
+tqdm>=4.66
+rich>=13.7
+
+# --- Utilitários ---
+numpy>=1.24,<2

@@ -1,0 +1,55 @@
+# Ambientes Virtuais e Dependencias
+venv/
+.venv/
+env/
+.env
+*.env
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Bancos de Dados e Dados Locais
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+
+# Logs e Arquivos Temporarios
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDEs e Ferramentas Locais
+.vscode/
+.idea/
+.claude/
+.ruff_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+*.spec.bak
